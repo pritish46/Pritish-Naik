@@ -1,0 +1,354 @@
+
+body{
+    text-align: center;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+}
+header{
+  padding-top: 3%;
+  background-image: url("../img/header.jpg");
+}
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+/* Navigation Bar */
+.navbar{
+  text-align: center;
+  /* background-color:#FF686B; */
+  color: #FFFFFF;
+  font-size: 20px;
+  width: 100%;
+  /* height: 10%; */
+  padding: 0.2% 5%;
+  position: fixed;
+  z-index: 3;
+}
+
+
+.navbar-fixed-top.scrolled {
+  background-color: #FFFFFF !important;
+  color: #3385ff !important;
+  transition: background-color color 200ms linear;
+}
+.nav-title{
+  color: #FFFFFF;
+  font-size : 1.4rem;
+
+}
+.navbar-toggler-icon, .navbar-toggler{
+background-color:#FFFFFF;
+}
+
+.navbar-brand{
+  padding: 5px 10px;
+}
+.navbar-brand.scrolled{
+  background-color: #3385ff !important;
+  border-radius: 10px;
+  transition: background-color color 200ms linear;
+}
+.item{
+  color: white;
+  font-size: 1.1rem;
+  vertical-align: middle;
+}
+.item.scrolled{
+  color: #3385ff;
+}
+
+
+/*  Introduction Containers -----------------------------*/
+.intro-container{
+  /* background-color: #A5FFD6; */
+  height: 50rem;
+}
+.intro-row{
+  height: 30rem;
+}
+
+.ice-breaker{
+  padding: 5% 10%;
+  height: 100%;
+}
+.profile-image{
+  max-width: 80%;
+  /* height: auto; */
+  border-radius:10%;
+  margin:5px;
+}
+.profile-col{
+  padding: 1% 0%;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.headline{
+  font-size: 2.5rem;
+  /* font-family: 'Pacifico', cursive; */
+  font-family:Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  text-align: left;
+}
+.info{
+  margin: 2% 1%;
+  font-size: 1.5rem;
+  text-align: left;
+  /* line-height : 1rem; */
+}
+/* Contact Icon */
+.contact-short{
+    margin: 1% 12%;
+    background-color:#f4f4f4;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+.con-icon{
+  /* color:#D44638; */
+  vertical-align: middle;
+  /* font-size: 10px;  */
+}
+/* Gmail color code */
+/* .fa-envelope, .fa-github, .fa-linkedin {
+  color:#D44638;
+} */
+/* github color code */
+.contact-block .fa-github{
+  color: #211F1F;
+}
+.fa-github{
+  color: #211F1F;
+}
+/* linkedin color code */
+.fa-linkedin{
+  color: #006192;
+}
+.contact-block .fa-linkedin, .contact-block .fa-phone-alt{
+  color: #006192;
+}
+.con-icon:hover{
+  color: #ff4c68;
+}
+.resume-logo{
+  height: 40px;
+  width: 40px;
+}
+/*  */
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  filter: invert(100%);
+}
+
+/* Education Container---------------------------------- */
+.education-container{
+/* background-color: #FFA69E; */
+background-color: #f4f4f4;
+padding: 30px 0px;
+}
+.education-dock{
+
+}
+.logo{
+  width: 10rem;
+  height: 8rem;
+  margin:5%;
+}
+.institute{
+  margin:10px;
+  animation-name: fadeInLeft;
+  visibility: visible;
+}
+.institute-name{
+  color: blue;
+  /* font-weight: bold; */
+  font-size:22px;
+}
+.degree,.degree-period{
+  color:#aeaeae;
+  font-size: 18px;
+}
+/*  */
+
+.skill-container{
+/* background-color: #FF686B; */
+background-color: #FFFFFF;
+}
+.work-container {
+/* background-color: #FFA69E; */
+background-color: #f4f4f4;
+}
+.fa-plus{
+  color: #FFFFFF;
+}
+
+/* Project Details */
+.project-container{
+/* background-color: #A5FFD6; */
+background-color: #FFFFFF;
+/* padding: 1% 1%; */
+}
+.row{
+  margin: 10px 0px;
+  width: 100%;
+}
+.col{
+  padding: 5px 5px;
+  height: auto;
+}
+.project-box{
+  background-color: #f4f4f4;
+  margin:10px 1px;
+  border-radius:10px;
+  height: 100%;
+  max-width: 400px;
+  align-items: center;
+  align-self: center;
+  /* height: 17rem; */
+}
+.project-title{
+  align-self: center;
+  font-weight: bold;
+  color: #3385ff;
+  font-size: 1.5rem;
+  margin: 0.2rem 0;
+  padding: 0 5px;
+}
+.project-text{
+  font-size: 1rem;
+  padding: 0 10px;
+}
+.project-skill{
+  margin: 10px 5px;
+  font-size: 1rem;
+  text-align:center;
+  margin-bottom: 10px !important;
+}
+.skill{
+    display:inline;
+    padding: 0px 4px;
+    margin: 1% 2px;
+    background-color: #3385ff;
+    color: #FFFFFF;
+    border-radius: 7px;
+}
+
+/* achievement */
+.achievement-container{
+  /* background-color: #FFA69E; */
+  background-color: #f4f4f4;
+}
+.award-title{
+  color: #3385FF;
+  font-size : 1.5rem;
+  margin:1% 0%;
+}
+.content{
+  font-size: 1rem;
+}
+.contact{
+/* background-color: #FF686B; */
+background-color: #FFFFFF;
+}
+
+.ph,.res{
+  margin-top: 8%;
+}
+
+.skillbar {
+    position: relative;
+    display: inline-block;
+    margin: 15px 0;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 10px;
+    width: 100%
+}
+
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    font-size: 13px;
+    color: #fff;
+    /* background: #6adcfa; */
+    background: #3385ff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* background: rgba(0,0,0,.1); */
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px
+}
+
+.skillbar-bar {
+    height: 35px;
+    width: 0;
+    background: #80aaff;
+    border-radius: 5px;
+    display: inline-block
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    color: rgba(0,0,0,.4)
+}
+
+
+.section-title{
+  /* font-weight: bold; */
+  font-size: 2rem;
+  margin: 2% 0%;
+}
+.nav-line{
+  width:60px;
+  height:1px;
+  margin:6px auto 0;
+  border-bottom:2px solid #3385FF;
+}
+.footer{
+  text-align: center;
+  color:#aeaeae;
+  font-size: 15px;
+}
+.carousel-item{
+  padding: 5% 7%;
+}
+.show{
+  background-color: #f8f8f8;
+}
+.collapsing{
+  background-color: #f8f8f8;
+}
+@media (max-width: 993px) {
+  .item{
+    color: #3588FF;
+    z-index: 2;
+  }
+}
+@media (min-width: 1193px) {
+.contact-short{
+  margin: 1% 25%;
+}
+}
+/*
+color coding:
+1.white blue
+#f4f4f4
+white
+
+
+ */
+ /* color schema
+ FFFFFF
+ 84DCC6
+ A5FFD6
+ FFA69E
+ FF686B */
